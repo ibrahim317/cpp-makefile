@@ -5,7 +5,7 @@ CFLAGS = -Wall -g
 
 INCLUDES =  -I./include
 
-LIBS = -lGL -lglfw3 -lX11 -lpthread -lXrandr -lXi -ldl
+LIBS = 
 
 SRCDIR = src
 
