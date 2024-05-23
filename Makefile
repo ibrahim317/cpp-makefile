@@ -16,7 +16,7 @@ SRCS = $(shell find $(SRCDIR) -type f -name '*.cpp') main.cpp
 OBJS = $(patsubst %.cpp,$(BUILDDIR)/%.o,$(subst $(SRCDIR)/,,$(filter-out main.cpp, $(SRCS)))) $(BUILDDIR)/main.o
 
 
-MAIN = 
+MAIN = app
 
 all: $(MAIN)
 
