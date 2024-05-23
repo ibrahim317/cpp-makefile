@@ -5,7 +5,7 @@ CFLAGS = -Wall -g
 
 INCLUDES =  ./include
 
-LIBS =  -lsfml-graphics -lsfml-window -lsfml-system
+LIBS =  
 
 SRCDIR = src
 
@@ -16,7 +16,7 @@ SRCS = $(shell find $(SRCDIR) -type f -name '*.cpp') main.cpp
 OBJS = $(patsubst %.cpp,$(BUILDDIR)/%.o,$(subst $(SRCDIR)/,,$(filter-out main.cpp, $(SRCS)))) $(BUILDDIR)/main.o
 
 
-MAIN = tirgs
+MAIN = 
 
 all: $(MAIN)
 
