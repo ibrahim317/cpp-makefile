@@ -8,3 +8,6 @@ To start on your project:
 1. First make sure that you are in a ⚠️ empty directory ⚠️ otherwise running `make setup` will cause the deletion of all files in the current direcotry.
 2. Clone the repo.
 3. Run `make setup` which removes both the connection to this repo and the README.md file, then it creates `main.cpp` file + `src`, `include` and `build` directories which are the defualt directory struture for this build system.
+
+## Building your project
+By adding the main function into `main.cpp` and (if needed) source files into `src` one can run `make` which will creates an executable named `app` this name (eg app) could be changed by assign diffrante value for the MAIN varibale in the Makefile  
